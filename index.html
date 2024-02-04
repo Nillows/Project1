@@ -1,0 +1,127 @@
+ <html>
+    <head>
+        <title>Here-say</title>
+        <link rel="stylesheet" href="./assets/styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    </head>
+<body>
+  <nav>
+    <div class="nav-wrapper #1b5e20 green darken-4">
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#gitHubLink"><i class="material-icons">Github</i></a></li>
+        <li><a href="#contactUs"><i class="material-icons">Contact</i></a></li>
+        <li><a href="#apiListUse"><i class="material-icons">ApiLists</i></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="map_canvas" style="width:100%; height:50%"></div>
+
+  <div id="latlong">
+    <p> Latitude: <input size="20" type="text" id="latbox" name="lat" ></p>
+    <p>Longitude: <input size="20" type="text" id="lngbox" name="lng" ></p>
+  </div>
+  <div class="cards-container">
+    <p id="firstptag"></p>
+    <section>
+      <p><br /><small id="secondptag"></small></p>
+    </section>
+    <div class="card blue-grey darken-1">
+      <div class="card-content">
+        <section id="langSect">
+          <p>The people here most frequently speak : <br /><small id="fourthptag"></small></p>
+        </section>
+      </div>
+    </div>
+      <div class="card blue-grey darken-1">
+        <div class="card-content">
+          <section>
+            <p >The name of the country is : <br /><small id="thirdptag"></small></p>
+          </section>
+        </div>
+      </div>
+        <div class="card blue-grey darken-1">
+          <div class="card-content s6">
+            <section id="capSec">
+              <p>The capital city is : <br /><small id="fifthptag"></small></p>
+            </section>
+          </div>
+        </div>
+        <div class="card blue-grey darken-1">
+          <div class="card-content">
+            <section id="popuSec">
+              <p>The population is : <br /><small id="sixthptag"></small></p>
+            </section>
+          </div>
+        </div>
+        <div class="card blue-grey darken-1">
+          <div class="card-content">
+            <section id="currenSec">
+              <p>The currency is : <br /><small id="seventhptag"></small></p>
+            </section>
+          </div>
+        </div>
+        <div class="card blue-grey darken-1">
+          <div class="card-content">
+            <section>
+              <p> The exchange rate to USD is : <br /><small id="ninthptag"></small></p>
+            </section>
+          </div>
+        </div>
+    <p id="eighthptag"></p>
+  </div>
+  <div class="card blue-grey darken-1">
+    <div class="card-content">
+        <div id="transDivi">
+          <input  type="text" placeholder="Search"  id="transSearch">
+          <button id="searchBtn">Translate</button>
+        </div>
+        <div id="translationContainer">
+          <p id="translatedPop"></p>
+        </div>
+    </div>
+  </div>
+    <footer class="footerList">
+      <div>
+        <div class="upperHand">
+          <div class="githubForm">
+            <h5>Github</h5>
+            <ul id="gitHubLink">
+              <li><a class="grey-text text-lighten-3" href="https://github.com/Mahdi-matty">Mahid-Mohammadi</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://github.com/Nillows">Thomas-Wolin</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://github.com/manjotpadda13/">Manjot-Pada</a></li>
+            </ul>
+          </div>
+          <div class="contactForm">
+            <h5>Contact</h5>
+            <ul id="contactUs">
+              <li><a class="grey-text text-lighten-3" href="https://github.com/Mahdi-matty">Mahid-Mohammadi</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://github.com/Nillows">Thomas-Wolin</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://github.com/manjotpadda13/">Manjot-Pada</a></li>
+            </ul>
+          </div>
+          <div class="apiForm">
+            <h5>Api_List</h5>
+            <ul id="apiListUse">
+              <li><a class="grey-text text-lighten-3" href="https://api.apilayer.com">ApiLayer</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://google-translate1.p.rapidapi.com">Google-Translate</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://api.freecurrencyapi.com">CurrencyApi</a></li>
+              <li><a class="grey-text text-lighten-3" href="http://api.openweathermap.org">OpenWeatherApi</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://maps.googleapis.com/maps/api">GoogleMapsApi</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://ip-geo-location4.p.rapidapi.com">Geo_LocationApi</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+  <script async src="./assets/script.js"></script>
+  <script async
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAw-eYDjESg87GqCwHKYunuN8jONSNI3q4&callback=initMap">
+  </script>
+</body>
+</html> 
+
+
+
+
+
