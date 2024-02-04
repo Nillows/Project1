@@ -1,0 +1,65 @@
+small {
+    display:flex;
+    opacity: 0;
+    font-size: 150px;
+    margin: auto;
+width: 50%;
+border: 3px solid rgb(187, 2, 2);
+padding: 10px;
+  }
+  .show-description small {
+    opacity: 1;
+  }
+  .show-description p{
+     height: 50px;
+  }
+  /* #langSect {
+    background-image: url("https://mycroft.ai/wp-content/uploads/2018/05/languages-edited.png");
+  }
+  #currenSec {
+    background-image: url("https://th.bing.com/th/id/R.22cb5cffc4077bfd955579d48da683d3?rik=polQqMNQks%2fXFw&riu=http%3a%2f%2fwww.gannett-cdn.com%2f-mm-%2fa835c2016b6b87b2f5e8ff8ba97ec05fba23f7e6%2fc%3d0-211-2125-1411%26r%3dx633%26c%3d1200x630%2flocal%2f-%2fmedia%2f2016%2f08%2f02%2fUSATODAY%2fUSATODAY%2f636057628882893315-ThinkstockPhotos-491790039.jpg&ehk=4MruO7KbCS0VtxSA2Jix5XwB5oYYJyDjlik3DEK%2bQ0o%3d&risl=&pid=ImgRaw&r=0");
+  }
+  #capSec {
+    background-image: url("https://fcmenterprises.org/americantribute/wp-content/uploads/2017/01/American_Tribute_Washington_Dc.jpg");
+  }
+  #popuSec {
+    background-image: url("https://westfaironline.com/wp-content/uploads/2018/03/population_increase.jpg");
+  } */
+  #map_canvas {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+  .footerList {
+    background-color: rgb(0, 119, 255);
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+  }
+  .upperHand {
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .githubForm {
+    flex-wrap: wrap;
+    margin-right: 40px;
+  }
+  .contactForm {
+    margin-right: 40px;
+  }
+  #eighthptag {
+    display: none;
+  }
+
+  body{
+    font-family: 'Gochi Hand', cursive;
+    background-color: rgb(0, 78, 141);
+    color: #fff;
+    }
+
+
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
